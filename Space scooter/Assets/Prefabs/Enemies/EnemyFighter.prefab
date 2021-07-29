@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7862603010870303080}
   - component: {fileID: 3402558973365346389}
   - component: {fileID: 8342868428947314857}
+  - component: {fileID: 1816969665}
   m_Layer: 7
   m_Name: EnemyFighter
   m_TagString: Untagged
@@ -100,8 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  eDeathPrefab: {fileID: 0}
-  animator: {fileID: 0}
+  eDeathPrefab: {fileID: 2697215932576709300, guid: c8486627b8b89884d9de9c058fdc798b, type: 3}
+  animator: {fileID: 1816969665}
+  eDiesSound: {fileID: 5245020925341874455, guid: 9016e08be4c2548429db9e97ac2388b0, type: 3}
 --- !u!114 &7862603010870303085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,4 +185,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 6896830437739425326, guid: 20af4616d11494242bbd1793cf006039, type: 3}
   fireDelay: 0.5
-  shootSound: {fileID: 8017497139406581433, guid: ae47e0cfdbfe6774c8b76389b5729885, type: 3}
+  shootSound: {fileID: 5011047451018555597, guid: 1af6ea0f68f8d3c499e9e4069d72cd13, type: 3}
+--- !u!95 &1816969665
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7862603010870303090}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b336d6ca1e61a764eb1da750077d7870, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

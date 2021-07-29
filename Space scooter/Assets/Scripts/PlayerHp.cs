@@ -16,7 +16,7 @@ public HealthBar healthBar;
 
 public Animator animator;
 public AudioSource diesSound;
-public GameObject spawner;
+//public GameObject spawner;
 
     Transform player;
 
@@ -63,20 +63,10 @@ void OnTriggerEnter2D() {
     Instantiate(deathPrefab, transform.position, transform.rotation);
     }
 
-    /// <summary>
-    /// OnGUI is called for rendering and handling GUI events.
-    /// This function can be called multiple times per frame (one call per event).
-    /// </summary>
-    void OnGUI()
-    {
-    if(currentHealth == 0)
-    GUI.Label(new Rect(Screen.width/2 - 50, Screen.height/2 - 25, 100, 50), "GAME OVER");
-    }
-
 void Die(){
     Destroy(gameObject);
     Points.instance.GameEnd();
-    spawner.SetActive(false);
+    //spawner.SetActive(false);
     
 }
 }

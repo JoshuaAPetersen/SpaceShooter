@@ -16,7 +16,7 @@ public class FighterSpawn : MonoBehaviour
         nextFighter -= Time.deltaTime;
         if(nextFighter <= 0) {
             nextFighter = fighterRate;
-            fighterRate *= 0.9f;
+            fighterRate *= 0.95f;
             Vector3 offset = Random.onUnitSphere;
             offset.z = 0;
             offset = offset.normalized * spawnDis;

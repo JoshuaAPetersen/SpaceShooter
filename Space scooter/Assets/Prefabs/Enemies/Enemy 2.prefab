@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1305091084354603260}
   - component: {fileID: -4577840809858071978}
   - component: {fileID: 5490000773404734960}
+  - component: {fileID: 1517328109}
   m_Layer: 7
   m_Name: Enemy 2
   m_TagString: Untagged
@@ -121,6 +122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  eDeathPrefab: {fileID: 9063989725377733935, guid: 71a74f52de617f34f9e8e5eb6d50d6f6, type: 3}
+  animator: {fileID: 1517328109}
 --- !u!114 &1305091084354603260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,3 +193,22 @@ PolygonCollider2D:
       - {x: 0.16499999, y: -0.42499998}
       - {x: 0.275, y: -0.405}
       - {x: 0.355, y: -0.315}
+--- !u!95 &1517328109
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7239082750193103639}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 28feaebd0c77cf94688a9d043185c7b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

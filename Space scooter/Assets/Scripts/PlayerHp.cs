@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHp : MonoBehaviour
 {
@@ -66,6 +67,7 @@ void OnTriggerEnter2D() {
 void Die(){
     Destroy(gameObject);
     Points.instance.GameEnd();
+    SceneManager.LoadScene("Dead");
     //spawner.SetActive(false);
     
 }

@@ -124,6 +124,7 @@ MonoBehaviour:
   health: 1
   eDeathPrefab: {fileID: 4385351148548786496, guid: 39c7ecf810a63b348b59d8cf9f22bd0a, type: 3}
   animator: {fileID: 353609176}
+  eDiesSound: {fileID: 5245020925341874455, guid: 9016e08be4c2548429db9e97ac2388b0, type: 3}
 --- !u!114 &2572415025136226865
 MonoBehaviour:
   m_ObjectHideFlags: 0

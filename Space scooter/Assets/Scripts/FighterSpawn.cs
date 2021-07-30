@@ -7,7 +7,7 @@ public class FighterSpawn : MonoBehaviour
     public GameObject fighterPrefab;
 
     float spawnDis = 20f;
-    float fighterRate = 5f;
+    public float fighterRate = 5f;
     float nextFighter = 1f;
 
     // Update is called once per frame

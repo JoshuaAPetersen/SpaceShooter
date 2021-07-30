@@ -1787,6 +1787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fighterPrefab: {fileID: 7862603010870303090, guid: 9696324f3c856f541b9f9de17998f7ce, type: 3}
+  fighterRate: 5
 --- !u!1 &1814672423
 GameObject:
   m_ObjectHideFlags: 0
